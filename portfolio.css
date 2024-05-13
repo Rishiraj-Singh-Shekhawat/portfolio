@@ -1,0 +1,957 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    background-color: black;
+    text-decoration: none;
+
+}
+.body{
+    color: #ededed;
+}
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 20px 10%;
+    left: 0;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    color: white;
+    background-color: black;
+    
+} 
+ .logo{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    color: #ededed;
+}
+
+    
+.navbar a{
+    /* display: inline-block; */
+    color: #ededed;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .10s;
+    margin-left: 35px;
+}
+.navbar a:hover{
+    color: orangered;
+}
+.home{
+    width: 100%; 
+    height: 800px;
+    color: white; 
+    padding-top: 150px;
+    padding-left: 200px;
+    display: flex;
+}
+.home-contect{
+    width: 50%;
+    font-size: 20px;
+    
+}
+
+.home-contect span{
+    color: orangered;
+}
+.box-btn{
+    color: white;
+    background-color: black;
+    border: 2px solid orangered;
+}
+
+.box-btn:hover{
+    background-color: orangered;
+    box-shadow: 0 0 20px orangered;
+}
+
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid orangered;
+    border-radius: 50%;
+    font-size: 18px;
+    color:white;
+    padding-top: 13px; 
+    margin: 30px 15px 30px 0;
+    text-decoration: none;
+}
+.home-sci a:hover{
+    background: orangered;
+    box-shadow: 0 0 20px orangered;
+}
+.home-sci button{
+    width: 30%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: none;
+    margin-top: 10px;
+}
+.home-sci button:hover{
+    background: black;
+    color: white;
+    box-shadow: 0 0 20px white;
+}
+.bx{
+    width: 30px;
+   height: 0px;
+   color: white;
+}
+.rishi{
+    width: 45%;
+    background-color: white;
+    background-image: url(IMG_20240102_142617.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 120px;
+    height: 530px;
+}
+.about{
+    width: 100%;
+    height: 730px;
+    display: flex;
+}
+.about1{
+    width: 30%;
+    height: 300px;
+    background-image: url(IMG_20240102_142617.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    height: 400px;
+    margin-left: 150px;
+   margin-top: 100px;
+   margin-right: 100px;
+}
+.about2{
+    width: 50%;
+    height: 300px;
+    color: white;
+    padding-top: 100px;
+    font-size: 30px;
+    font-weight: 500px;
+}
+.about2 h1{
+    font-size: 60px;
+}
+.about2 span{
+    color: orangered;
+}
+.about2 button{
+    width: 20%;
+    height: 50px;
+    margin-top: 50px;
+    background-color: orangered;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+}
+
+.skill{
+    width: 100%;
+    height: 630px;
+    background-color: black;
+}
+.my_skills{
+    width: 100%;
+    height: 80px;
+    padding-top: 60px;
+    /* margin-top: 10px; */
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    
+
+}
+.my_skills span{
+    color: orangered;
+}
+.typeskills{
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    padding-top: 50PX;
+}
+.tec{
+    width: 50%;
+    height: 400px;
+    color:white;
+    font-size: 30px;
+    gap: 30px;
+    padding-left: 150px;  
+    
+}
+.pro{
+    width: 50%;
+    height: 400px;
+    color: orangered;
+    font-size: 30px;
+    gap: 30px;
+    padding-left: 150px;  
+}
+
+.sicon{
+    width: 100%;
+    padding-left: 100px;
+    color: white;
+  gap: 30px;
+    padding-top: 50px; 
+}
+.sicon li{
+    list-style: none;
+    padding-top: 10px;
+}
+.picon{
+    width: 100%;
+    padding-left: 100px;
+    color: white;
+   padding-top: 30px;
+
+}
+.picon li{
+   padding-top: 10px;
+}
+
+
+
+
+.project{
+    width: 100%;
+    height: 600px;
+    color: white;
+    padding-top: 100px;
+    
+}
+
+.ph{
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    
+}
+.ph h1{
+    font-size: 60px;
+}
+.ph span{
+    color: orangered;
+}
+.pbox{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.pbox1{
+    width: 30%;
+    height: 400px;
+    box-shadow: 0 0 30px orangered;
+     margin-left: 50px;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: none;
+}
+.pbox1:hover{
+    transform: translateY(-20px);
+}
+.pbox1 span{
+    color: orangered;
+    font-size: 30px;
+}
+.img{
+    width: 100%;
+    height: 200px;
+    background-image: url("Screenshot 2024-01-12 144522.png");
+    background-size: cover;
+    border: 2px solid white;
+}
+.pbox2{
+    width: 30%;
+    height: 400px;
+    box-shadow: 0 0 30px orangered;
+    margin-left: 20px;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: none;
+}
+.pbox2:hover{
+    transform: translateY(-20px);
+}
+.pbox2 span{
+    color: orangered;
+    font-size: 30px;
+}
+.img1{
+    width: 100%;
+    height: 200px;
+    background-image: url("Screenshot 2024-01-10 163639.png");
+    background-size: cover;
+    border: 2px solid white;
+}
+.pbox3{
+    width: 30%;
+    height: 400px;
+    box-shadow: 0 0 30px orangered;
+    margin-left: 20px;
+    margin-top: 50px;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.pbox3:hover{
+    transform: translateY(-20px);
+}
+.pbox3 span{
+    color: orangered;
+    font-size: 30px;
+}
+.img2{
+    width: 100%;
+    height: 200px;
+    background-image: url("Screenshot\ 2024-01-10\ 163235.png");
+    background-size: cover;
+    border: 2px solid white;
+}
+
+
+.contact{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    color: white;
+    padding-top: 100px;
+   
+}
+.self-info{
+width: 100%;
+height: 500px;
+font-size: 20px;
+text-align: center;
+
+}
+.self-info h1{
+    font-size: 60px;
+    padding-top: 50px;
+}
+.self-info .bx{
+   display: inline-flex; 
+   
+}
+.your-info{
+    width: 100%;
+    height: 500px;
+    color: white;
+    padding-top: 20px;
+    
+}
+.self-info span{
+    color: orangered;
+}
+.your-info input {
+    width: 60%;
+    height: 60px;
+    color: orangered;
+    /* border: 2px solid orangered; */
+    font-size: 25px;
+    border: none;
+    margin: 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+textarea{
+    color: orangered;
+    /* border: 2px solid orangered; */
+    border: none;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 25px;
+   padding-left: 20px;
+   padding-top: 10px;
+}
+.your-info button{
+   width: 30%;
+   height: 60px;
+    color: orangered;
+    border: 2px solid orangered;
+    font-size: 25px;
+     margin: 10px;
+     border-radius: 30px;
+    margin-top: 30px;
+
+}
+.your-info button:hover{
+    background-color: orangered;
+    color: black;
+    box-shadow: 0 0 20px orangered;
+}
+.icon i{
+    /* display: inline-flex; */
+    justify-content: center;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid orangered;
+    border-radius: 50%;
+    font-size: 18px;
+    color:white;
+   padding-top: 13px;
+    margin: 70px 20px 25px 0;
+    display: flex;
+}
+.icon i:hover{
+    background-color: orangered;
+    box-shadow: 0 0 20px orangered;
+}
+.home-sci a:hover{
+    background: orangered;
+    box-shadow: 0 0 20px orangered;
+}
+
+
+
+@media screen and (max-width:400px){
+    .header{
+        width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 5px 5%;
+    left: 0;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    color: white;
+    background-color: black;
+    margin-top: 0px;
+        
+    } 
+    .logo{
+        width: 10%;
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: 60;
+        color: #ededed;
+        padding-left: 0px;
+    }
+    .navbar{
+        width: 100%;
+        padding-left: 40px;
+    }
+        
+    .navbar a{
+        display: inline-block;
+        color: #ededed;
+        font-size: 10px;
+        text-decoration: none;
+        font-weight: 50;
+        transition: .10s;
+        margin-left: 7px;
+    }
+    .navbar a:hover{
+        color: orangered;
+    } 
+}
+@media screen and (max-width:400px){
+    .home{
+        width:100%; 
+    height: 300px;
+    color: white; 
+    padding-top: 0px;
+    padding-left: 0px;
+    display: flex;   
+     padding-left: 10px;  
+     margin-top: 50px;
+    } 
+    .home-contect{
+       width: 100%;
+       height: 400px; 
+       margin-top: 30px;
+       font-size:15px;
+       margin-left: 50px;
+    }
+    
+    .home-contect span{
+        color: orangered;
+    }
+    .box-btn{
+        color: white;
+        background-color: black;
+        border: 2px solid orangered;
+    } 
+    
+     .box-btn:hover{
+        background-color: orangered;
+        box-shadow: 0 0 20px orangered;
+    } 
+    
+     .home-sci a{
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+        width: 25px;
+        height: 25px;
+        background: transparent;
+        border: 2px solid orangered;
+        border-radius: 50%;
+        font-size: 10px;
+        color:white;
+        padding-top: 7px; 
+        margin: 10px 5px 15px 0;
+        text-decoration: none;
+    }
+    .home-sci a:hover{
+        background: orangered;
+        box-shadow: 0 0 20px orangered; 
+ }
+    .home-sci button{
+        width: 50%;
+        height:30px;
+        border-radius: 30px;
+        background-color: white;
+        color: black;
+        text-align: center;
+        border: none;
+        margin-top: 10px;
+    }
+    .home-sci button:hover{
+        background: black;
+        color: white;
+        box-shadow: 0 0 20px white;
+    }
+    .bx{
+        width: 30px;
+       height: 0px;
+       color: white;
+    }
+    .rishi{
+      width: 0%;
+    background-color: white;
+    background-image: url(IMG_20240102_142617.jpg);
+    background-size: cover;
+    border-radius: 50%;
+   margin-top: 70px;
+   margin-right: 0px;
+    height: 250px;
+       
+    }
+ } 
+@media screen and (max-width:400px){
+    .about{
+        width: 100%;
+        height: 600px;
+        display:grid;
+    }
+    .about1{
+        width:100%;
+        height: 300px;
+         background-image: url("IMG_20240102_142617.jpg");
+        background-size: cover;
+        border-radius: 50%; 
+         height: 300px; 
+        margin-left: 20px;
+       margin-top: 50px;
+       margin-right: 0px; 
+       
+    }
+    .about2{
+        width: 100%;
+        height: 200px;
+        color: white;
+        padding-top: 40px;
+        font-size: 15px;
+        margin-left: 50px;
+        font-weight: 200px;
+    }
+    .about2 h1{
+        font-size: 40px;
+    }
+    .about2 span{
+        color: orangered;
+    }
+    .about2 button{
+        width: 30%;
+        height: 30px;
+        margin-top: 20px;
+        background-color: orangered;
+        color: white;
+        border-radius: 30px;
+        border: none;
+        font-size: 15px;
+    }
+    
+}
+@media screen and (max-width:400px){
+    .skill{
+        width: 100%;
+        height: 800px;
+    }
+    .my_skills{
+        width: 100%;
+        height: 60px;
+        text-align: center;
+        font-size:25px;
+        color: white;
+        background-color:black;
+        margin-top: 20px;
+    
+    }
+    .my_skills span{
+        color: orangered;
+    }
+    .typeskills{
+        width: 100%;
+        height: 300px;
+        display: grid;
+        padding-top:50px;
+    }
+    .tec{
+        width: 100%;
+        height: 300px;
+        color:white;
+        font-size: 20px;
+        gap: 10px;
+        padding-left: 20px;  
+    }
+    .pro{
+        width: 100%;
+        height: 400px;
+        color: orangered;
+        font-size: 20px;
+        gap: 10px;
+        padding-left: 20px;  
+        margin-top: 20px;
+    }
+    
+    .sicon{
+        width: 100%;
+        padding-left: 10px;
+        color: white;
+        padding-top: 15px;
+    }
+    .picon{
+        width: 100%;
+        padding-left: 10px;
+        color: white;
+       padding-top: 15px;
+    
+    } 
+}
+@media screen and (max-width:400px){
+    .project{
+        width: 100%;
+        height: 700px;
+        color: white;
+        padding-top: 20px;
+
+        
+    }
+    .ph{
+        
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        
+    }
+    .ph h1{
+        font-size: 50px;
+        padding-left: 20px;
+    }
+    .ph span{
+        color: orangered;
+    }
+    .pbox{
+        width: 100%;
+        height: 500px;
+        display: grid;
+    }
+    .pbox1{
+        width: 70%;
+        height: 180px;
+        box-shadow: 0 0 30px orangered;
+         margin-left: 80px;
+        margin-top: 60px;
+        color: white;
+        text-align: center;
+        padding-top: 15px;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .pbox1:hover{
+        transform: translateY(-20px);
+    }
+    .pbox1 span{
+        color: orangered;
+        font-size: 15px;
+    }
+    .img{
+        width: 100%;
+        height: 100px;
+        background-image: url("Screenshot 2024-01-10 163529.png");
+        background-size: cover;
+        border: 2px solid white;
+        margin-top: 10px;
+    }
+    .pbox2{
+        width: 70%;
+        height: 180px;
+        box-shadow: 0 0 30px orangered;
+        margin-left: 80px;
+        margin-top: 20px;
+        color: white;
+        text-align: center;
+        padding-top: 15px;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .pbox2:hover{
+        transform: translateY(-20px);
+    }
+    .pbox2 span{
+        color: orangered;
+        font-size: 15px;
+    }
+    .img1{
+        width: 100%;
+        height: 100px;
+        background-image: url("Screenshot 2024-01-10 163639.png");
+        background-size: cover;
+        border: 2px solid white;
+        margin-top: 10px;
+    }
+    .pbox3{
+        width: 70%;
+        height: 180px;
+        box-shadow: 0 0 30px orangered;
+        margin-left: 80px;
+        margin-top: 20px;
+        color: white;
+        padding-top: 15px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .pbox3:hover{
+        transform: translateY(-20px);
+    }
+    .pbox3 span{
+        color: orangered;
+        font-size: 15px;
+    }
+    .img2{
+        width: 100%;
+        height: 100px;
+        background-image: url("Screenshot\ 2024-01-10\ 163235.png");
+        background-size: cover;
+        border: 2px solid white;
+        margin-top: 10px;
+        
+    }
+    
+}
+@media screen and (max-width:400px){
+    .contact{
+        width: auto;
+        height: 300px;
+        display: flex;
+        color: white;
+        padding-left: 30px;
+        /* padding-top: 10px; */
+       
+    }
+    .self-info{
+    width: 100%;
+    height: 300px;
+    font-size: 40px;
+    text-align: center;
+    
+    }
+    .self-info h1{
+        font-size: 50px;
+    }
+    .self-info .bx{
+       display: inline-flex; 
+       
+    }
+    .your-info{
+        width: 100%;
+        height: 300px;
+        color: white;
+        padding-top: 10px;
+        
+    }
+    .self-info span{
+        color: orangered;
+    }
+    .your-info input {
+        width: 70%;
+        height: 40px;
+        color: orangered;
+        border: 2px solid orangered;
+        font-size: 20px;
+        border: none;
+        margin: 10px;
+        background-color: white;
+        border-radius: 30px;
+    }
+    textarea{
+        color: orangered;
+        width: 70%;
+        height: 40px;
+         border: 2px solid orangered;
+         border: none;
+        background-color: white;
+        border-radius: 30px;
+        font-size: 20px;
+       padding-left: 0px;
+       padding-top: 10px;
+      margin-top: 10px;
+    } 
+    .your-info button{
+       width: 60%;
+       height: 30px;
+        color: orangered;
+        border: 2px solid orangered;
+        font-size: 15px;
+         margin: 10px;
+         border-radius: 30px;
+        margin-top: 10px;
+       
+    
+    }
+    .your-info button:hover{
+        background-color: orangered;
+        color: black;
+        box-shadow: 0 0 20px orangered;
+    }
+    .icon i{
+         display: inline-flex; 
+        justify-content: center;
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        background: transparent;
+        border: 2px solid orangered;
+        border-radius: 50%;
+        font-size: 10px;
+        color:white;
+       padding-top: 8px;
+        margin: 8px 8px 8px 0;
+        display: flex;
+    }
+    .icon i:hover{
+        background-color: orangered;
+        box-shadow: 0 0 20px orangered;
+    }
+    .home-sci a:hover{
+        background: orangered;
+        box-shadow: 0 0 20px orangered;
+    }
+     
+    
+    
+ }
+
+
+ * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    background-color: black;
+    text-decoration: none;
+}
+
+.body {
+    color: #ededed;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 20px 10%;
+    left: 0;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    color: white;
+    background-color: black;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    color: #ededed;
+}
+
+.navbar a {
+    color: #ededed;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .10s;
+    margin-left: 35px;
+}
+
+.navbar a:hover {
+    color: orangered;
+}
+
+@media screen and (max-width: 700px) {
+    .navbar {
+        display: none;
+    }
+    
+    .logo {
+        font-size: 20px;
+    }
+
+    .header {
+        padding: 15px 5%;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .logo {
+        font-size: 15px;
+    }
+
+    .header {
+        padding: 10px 5%;
+    }
+
+    .navbar a {
+        font-size: 18px;
+    }
+}
