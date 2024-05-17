@@ -58,6 +58,19 @@
     width: 50%;
     font-size: 20px;
     
+    
+}
+.home-contect1{
+    width: 100%;
+    letter-spacing: 5px;
+    white-space: nowrap;
+  overflow: hidden;
+    animation: text_animation 3s 0s infinite linear;
+}
+@keyframes text_animation {
+    from{
+        width: 0%;
+    }
 }
 
 .home-contect span{
@@ -154,13 +167,41 @@
 }
 .about2 button{
     width: 20%;
+    display: table;
     height: 50px;
     margin-top: 50px;
+    position: relative;
     background-color: orangered;
     color: white;
     border-radius: 30px;
     border: none;
     font-size: 20px;
+}
+.btn_ani{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-radius: 30px;
+    opacity: 0%;
+    background-color: orangered;
+    animation: btnAni 5s 0s infinite linear;
+}
+@keyframes btnAni{
+    0%{
+       transform: scale(1,1);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(1.5,1.5);
+        opacity: 0.5;
+    }
+    100%{
+        transform: scale(1,1);
+        opacity: 0;
+    }
+
 }
 
 .skill{
@@ -232,14 +273,122 @@
 
 
 
-.project{
+.projects{
     width: 100%;
-    height: 600px;
+    height: 900px;
     color: white;
     padding-top: 100px;
+   
+    /* background-color: aqua; */
+}
+.project_box1{
+      width: 100%;
+      height: 300px;
+      display: flex;
+      /* gap: 30px; */
+      /* background-color: antiquewhite; */
+}
+.project{
+    width: 25%;
+    height: 300px;
+    position: relative;
+    margin: 50px;
+    cursor: pointer;
+    
+   
+}
+.project_card{
+    position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  border: 2px solid orangered;
+  transform-style: preserve-3d;
+    transition: all 0.2s ease;
     
 }
+.project_card:hover{
+    transform: rotateY(180deg);
 
+}
+.front_text{
+    position: absolute;
+    background: none;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    width: 100%;
+    height: 50px;
+    
+    
+}
+.front_text2{
+    /* position: absolute; */
+    font-size: 20px;
+   padding-top: 30px;
+    background: none;
+    width: 100%;
+   
+}
+.procject_front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: orangered;
+    overflow: hidden;
+    backface-visibility: hidden;
+    background: white;
+    border-radius: 30px;
+    
+}
+.procject_front a{
+    text-decoration: none;
+    background: none;
+    color: orangered;
+}
+.project_back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: white;
+    background: orangered;
+    transform: perspective(600px) rotateY(180deg);
+    border-radius: 30px;
+}
+.back_img a{
+    text-decoration: none;
+    background: none;
+    color: white;
+}
+.back_img{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    background: none;
+    position: absolute;
+}
+
+.project_box2{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    /* gap: 30px; */
+    /* background-color: antiquewhite; */
+}
+.project1{
+    width: 25%;
+    height: 300px;
+    position: relative;
+    margin: 50px;
+    padding-top: 50px;
+    cursor: pointer;
+    
+   
+}
 .ph{
     text-align: center;
     width: 100%;
@@ -252,87 +401,6 @@
 .ph span{
     color: orangered;
 }
-.pbox{
-    width: 100%;
-    height: 500px;
-    display: flex;
-}
-.pbox1{
-    width: 30%;
-    height: 400px;
-    box-shadow: 0 0 30px orangered;
-     margin-left: 50px;
-    margin-top: 50px;
-    color: white;
-    text-align: center;
-    padding-top: 30px;
-    text-decoration: none;
-}
-.pbox1:hover{
-    transform: translateY(-20px);
-}
-.pbox1 span{
-    color: orangered;
-    font-size: 30px;
-}
-.img{
-    width: 100%;
-    height: 200px;
-    background-image: url("Screenshot 2024-01-12 144522.png");
-    background-size: cover;
-    border: 2px solid white;
-}
-.pbox2{
-    width: 30%;
-    height: 400px;
-    box-shadow: 0 0 30px orangered;
-    margin-left: 20px;
-    margin-top: 50px;
-    color: white;
-    text-align: center;
-    padding-top: 30px;
-    text-decoration: none;
-}
-.pbox2:hover{
-    transform: translateY(-20px);
-}
-.pbox2 span{
-    color: orangered;
-    font-size: 30px;
-}
-.img1{
-    width: 100%;
-    height: 200px;
-    background-image: url("Screenshot 2024-01-10 163639.png");
-    background-size: cover;
-    border: 2px solid white;
-}
-.pbox3{
-    width: 30%;
-    height: 400px;
-    box-shadow: 0 0 30px orangered;
-    margin-left: 20px;
-    margin-top: 50px;
-    color: white;
-    padding-top: 30px;
-    text-align: center;
-    text-decoration: none;
-}
-.pbox3:hover{
-    transform: translateY(-20px);
-}
-.pbox3 span{
-    color: orangered;
-    font-size: 30px;
-}
-.img2{
-    width: 100%;
-    height: 200px;
-    background-image: url("Screenshot\ 2024-01-10\ 163235.png");
-    background-size: cover;
-    border: 2px solid white;
-}
-
 
 .contact{
     width: 100%;
@@ -430,7 +498,7 @@ textarea{
 
 
 
-@media screen and (max-width:400px){
+@media screen and (max-width:425px){
     .header{
         width: 100%;
     position: fixed;
@@ -473,7 +541,7 @@ textarea{
         color: orangered;
     } 
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:425px){
     .home{
         width:100%; 
     height: 300px;
@@ -557,7 +625,7 @@ textarea{
        
     }
  } 
-@media screen and (max-width:400px){
+@media screen and (max-width:425px){
     .about{
         width: 100%;
         height: 600px;
@@ -602,7 +670,7 @@ textarea{
     }
     
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:425px){
     .skill{
         width: 100%;
         height: 800px;
@@ -658,119 +726,51 @@ textarea{
     
     } 
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:425px){
+    .projects{
+        width: 100%;
+        height: 2300px;
+        color: white;
+        padding-top: 30px;
+        font-size: 15px;
+       
+        /* background-color: aqua; */
+    }
+    .project_box1{
+          width: 100%;
+          height: 1000px;
+          display: inline-block;
+          /* gap: 30px; */
+          /* background-color: antiquewhite; */
+    }
     .project{
-        width: 100%;
-        height: 700px;
-        color: white;
-        padding-top: 20px;
-
+        width: 80%;
+        height: 300px;
+        position: relative;
+        margin: 50px;
+        cursor: pointer;
         
+       
     }
-    .ph{
-        
+    .project_box2{
         width: 100%;
-        height: 70px;
-        text-align: center;
-        
-    }
-    .ph h1{
-        font-size: 50px;
-        padding-left: 20px;
-    }
-    .ph span{
-        color: orangered;
-    }
-    .pbox{
-        width: 100%;
-        height: 500px;
-        display: grid;
-    }
-    .pbox1{
-        width: 70%;
-        height: 180px;
-        box-shadow: 0 0 30px orangered;
-         margin-left: 80px;
-        margin-top: 60px;
-        color: white;
-        text-align: center;
-        padding-top: 15px;
-        text-decoration: none;
-        font-size: 10px;
-    }
-    .pbox1:hover{
-        transform: translateY(-20px);
-    }
-    .pbox1 span{
-        color: orangered;
-        font-size: 15px;
-    }
-    .img{
-        width: 100%;
-        height: 100px;
-        background-image: url("Screenshot 2024-01-10 163529.png");
-        background-size: cover;
-        border: 2px solid white;
-        margin-top: 10px;
-    }
-    .pbox2{
-        width: 70%;
-        height: 180px;
-        box-shadow: 0 0 30px orangered;
-        margin-left: 80px;
-        margin-top: 20px;
-        color: white;
-        text-align: center;
-        padding-top: 15px;
-        text-decoration: none;
-        font-size: 10px;
-    }
-    .pbox2:hover{
-        transform: translateY(-20px);
-    }
-    .pbox2 span{
-        color: orangered;
-        font-size: 15px;
-    }
-    .img1{
-        width: 100%;
-        height: 100px;
-        background-image: url("Screenshot 2024-01-10 163639.png");
-        background-size: cover;
-        border: 2px solid white;
-        margin-top: 10px;
-    }
-    .pbox3{
-        width: 70%;
-        height: 180px;
-        box-shadow: 0 0 30px orangered;
-        margin-left: 80px;
-        margin-top: 20px;
-        color: white;
-        padding-top: 15px;
-        text-align: center;
-        text-decoration: none;
-        font-size: 10px;
-    }
-    .pbox3:hover{
-        transform: translateY(-20px);
-    }
-    .pbox3 span{
-        color: orangered;
-        font-size: 15px;
-    }
-    .img2{
-        width: 100%;
-        height: 100px;
-        background-image: url("Screenshot\ 2024-01-10\ 163235.png");
-        background-size: cover;
-        border: 2px solid white;
-        margin-top: 10px;
-        
+        height: 600px;
+        display: inline-block;
+        /* gap: 30px; */
+        /* background-color: antiquewhite; */
+  }
+    .project1{
+        width: 80%;
+        height: 300px;
+        position: relative;
+        margin: 50px;
+        cursor: pointer;
+       display: inline-block; 
+       
     }
     
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:425px){
     .contact{
         width: auto;
         height: 300px;
