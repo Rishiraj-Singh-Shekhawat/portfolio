@@ -498,7 +498,7 @@ textarea{
 
 
 
-@media screen and (max-width:425px){
+@media screen and (max-width:426px){
     .header{
         width: 100%;
     position: fixed;
@@ -541,7 +541,7 @@ textarea{
         color: orangered;
     } 
 }
-@media screen and (max-width:425px){
+@media screen and (max-width:426px){
     .home{
         width:100%; 
     height: 300px;
@@ -625,7 +625,7 @@ textarea{
        
     }
  } 
-@media screen and (max-width:425px){
+@media screen and (max-width:426px){
     .about{
         width: 100%;
         height: 600px;
@@ -670,7 +670,7 @@ textarea{
     }
     
 }
-@media screen and (max-width:425px){
+@media screen and (max-width:426px){
     .skill{
         width: 100%;
         height: 800px;
@@ -726,7 +726,7 @@ textarea{
     
     } 
 }
-@media screen and (max-width:425px){
+@media screen and (max-width:426px){
     .projects{
         width: 100%;
         height: 2300px;
@@ -770,7 +770,7 @@ textarea{
     }
     
 }
-@media screen and (max-width:425px){
+@media screen and (max-width:426px){
     .contact{
         width: auto;
         height: 300px;
